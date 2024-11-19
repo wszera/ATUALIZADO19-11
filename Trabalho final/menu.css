@@ -1,0 +1,54 @@
+/* Reset de margens e padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+.borda1{
+    background-color:#333;;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+}
+.miniBorda{
+    height: 2px;
+    
+}
+.titulo{
+    color: green;
+    text-decoration: none;
+    font-size: 50px;
+    position: relative;
+    top: 20px;
+}
+.menu-principal {
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.menu-principal ul {
+    list-style: none;
+}
+
+.menu-principal ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.menu-principal ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.menu-principal ul li a:hover {
+    background-color: #555;
+}
